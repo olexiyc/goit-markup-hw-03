@@ -116,6 +116,7 @@ body{
     height: 24px;
     left: 1133px;
     top: 24px;
+    margin-right: 156px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -151,6 +152,7 @@ height: 120px;
 left: 474px;
 top: 264px;
 position: absolute;
+
 
 }  
 .button{
@@ -233,7 +235,7 @@ margin-bottom: 120px;
     height: 40px;
     left: 639px;
     top: 1671px;
-    
+    white-space: nowrap;
     /* Header 2 */
     
     font-family: 'Roboto';
@@ -251,7 +253,7 @@ margin-bottom: 120px;
     }
 .worker-set{
     padding-top: 232px;
-    
+
 }
 .worker-item{
 
