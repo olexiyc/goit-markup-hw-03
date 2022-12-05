@@ -139,7 +139,7 @@ body{
     /* or 107% */
     margin: 0 auto;
     margin-bottom: 48px;
-    text-align:center;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;}  
 .button{
@@ -156,7 +156,8 @@ body{
     background-color: #4D5AE5;
     border-radius: 4px;
     margin: 0;
-    cursor: pointer;}
+    cursor: pointer;
+}
 
 .section-goals{
     padding-top: 120px;
