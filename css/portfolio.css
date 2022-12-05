@@ -21,32 +21,39 @@ a{
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal}
-    .pageheader{
+    .container-header{
         background: #FFFFFF;
-        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-    }
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1158px;
+    margin: 0 auto;}
+
 .webstudio{
-        padding-left: 156px;
-        padding-top: 24px;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 24px; display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #2E2F42;}
+    padding-top: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px; display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;}
+
 .nav-list{
     display: flex;
     margin: 0px;
-    padding: 0px;
-}
+    padding: 0px;}
+
 .nav-item{
     display: block;
     margin-right: 40px;
 
 }
+
 .social-links{
     display: flex;
     margin: 0px;
@@ -114,6 +121,7 @@ body{
     height: 24px;
     left: 1133px;
     top: 24px;
+    margin-right: 156px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -125,26 +133,25 @@ letter-spacing: 0.02em; color: #434455;}
 .tel:focus{
     color: red;
 }
-.buttons{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 96px;
-    margin-bottom: 72px;
 
+.section-main{
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1158px;}
+    
 .button-list{
+     margin-bottom: 72px;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
     box-sizing: border-box;
-    display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
+    display: flex; gap: 24px;
 }
 .button1{
 padding-top: 12px;
@@ -155,6 +162,7 @@ padding-right: 24px;
     background: #4D5AE5;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
+margin-left: 271px;
 }
 .button2{
 padding-top: 12px;
@@ -207,49 +215,46 @@ padding-right: 24px;
     justify-content: center;
 }
 .flex-element{
-    box-sizing: border-box;
-
-    width: 360px;
-    height: 420px;
-    
-    background: #FFFFFF;
+    box-sizing: border-box; background: #FFFFFF;
 /* CLOUD */
 
 border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 margin-left: 24px;
-margin-bottom: 48px;
+margin-bottom: 48px;}
 
-}
-.footer-container{
-    width: 1440px;
-height: 310px;
-left: 0px;
-top: 2283px;
 
-/* NAVY BLUE */
-
+.footer-container{ left: 0px;
+    height: 310px;
+    padding-left: 156px;
+    padding-right: 156px;
 background: #2E2F42;
 }
-.text-footer{
-    width: 264px;
-    height: 72px;
-    left: 156px;
-    top: 2421px;
-    
-    /* Body */
-    
-    font-family: 'Roboto';
+.webstudio-footer{
+    padding-top: 100px;
+    font-family: 'Raleway';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-    
-    letter-spacing: 0.02em;
-    
-    /* CORNFLOWER */
-    
-    color: #E7E9FC;
-    
-    }
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px; display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.text-footer{
+width: 264px; 
+margin-bottom: 100px; margin-top: 16px;
+/* Body */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* CORNFLOWER */
+
+color: #E7E9FC;}
