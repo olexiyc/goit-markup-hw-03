@@ -25,115 +25,107 @@ body{
         background: #FFFFFF;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);}
 
-.container{
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1158px;
-    margin: 0 auto;}
-
-.webstudio{
-    padding-top: 24px;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px; display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42;}
-
-.nav-list{
-    display: flex;
-    margin: 0px;
-    padding: 0px;}
-
-.nav-item{
-    display: block;
-    margin-right: 40px;
-
-}
-
-.social-links{
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-}
-.social-item{
-    padding-top: 24px;
-    padding-bottom: 24px;
-
-}
-.studio{
-    position: absolute;
-    top: 24px;
-    left: 348px;
-    width: 48px;
-    height: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px; letter-spacing: 0.02em; 
-    color: #2E2F42;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-}
-.portfolio{
-    position: absolute;
-    top: 24px;
-    left: 436px;
-    width: 66px; 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px; 
-    letter-spacing: 0.02em;
-    color: #2E2F42;}
-.contacts{  
-    position: absolute;
-    top: 24px;
-    left: 542px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px; letter-spacing: 0.02em;
-    color: #2E2F42;}
-.mail{position: absolute;
-    width: 153px;
-    height: 24px;
-    left: 940px;
-    top: 24px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; letter-spacing: 0.02em;
-    color: #434455;}
-.mail:hover{
-    color: orange;
-}
-.mail:focus{
-    color: red;
-}
-.tel{position: absolute;
-    width: 151px;
-    height: 24px;
-    left: 1133px;
-    top: 24px;
-    margin-right: 156px;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px; line-height: 24px;
-letter-spacing: 0.02em; color: #434455;}
-.tel:hover{
-    color: orange;
-}
-.tel:focus{
-    color: red;
-}
-
+        .container-header{
+    
+            padding-top: 24px;
+            padding-bottom: 24px;
+            background: #FFFFFF;
+            box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);}
+        
+        .container{
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 1158px;
+            margin: 0 auto;}
+        .container-header .container {display: flex; }
+        
+        
+        .webstudio{
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 24px; display: flex;
+            align-items: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #2E2F42;
+            margin-right: 77px;}
+            
+        
+        .nav-list{
+            display: flex;
+            gap: 40px;
+           }
+        
+        .nav-item{
+            display: block;}
+        
+        .social-links{
+            display: flex;
+            gap: 40px;
+            
+        }
+        .social-item{
+            display: block;
+            
+        }
+        .studio{font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px; letter-spacing: 0.02em; 
+            color: #2E2F42;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+        .portfolio{
+        
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px; 
+            line-height: 24px;
+            letter-spacing: 0.02em;
+            color: #2E2F42;}
+        .contacts{  
+            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 600;
+            line-height: 24px;
+            font-size: 16px; letter-spacing: 0.02em;
+            color: #2E2F42;
+        }
+        .mail{
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px; letter-spacing: 0.02em;
+            color: #434455;
+            padding-left: 295px;
+            }
+        .mail:hover{
+            color: orange;
+        }
+        .mail:focus{
+            color: red;
+        }
+        .tel{
+           
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px; line-height: 24px;
+            letter-spacing: 0.02em; color: #434455;}
+        .tel:hover{
+            color: orange;
+        }
+        .tel:focus{
+            color: red;
+        }
 .section-main{
     padding-top: 96px;
     padding-bottom: 120px;
@@ -141,7 +133,8 @@ letter-spacing: 0.02em; color: #434455;}
 .container{
     padding-left: 15px;
     padding-right: 15px;
-    width: 1158px;}
+    width: 1158px;
+    margin: 0 auto;}
     
 .button-list{
      margin-bottom: 72px;
@@ -180,8 +173,7 @@ padding-right: 24px;
         font-weight: 600;
         font-size: 20px;
         line-height: 24px;
-        padding-top: 32px;
-        padding-left: 16px;
+        
         /* identical to box height, or 120% */
         
         letter-spacing: 0.02em;
@@ -196,7 +188,8 @@ padding-right: 24px;
         flex: none;
         order: 0;
         flex-grow: 0;}
-.text{  font-weight: 400;
+.text{  
+        font-weight: 400;
         font-size: 16px;
         line-height: 24px;
         /* identical to box height, or 150% */
@@ -204,23 +197,35 @@ padding-right: 24px;
         letter-spacing: 0.02em;
         
         /* SLATE */
-        padding-top: 8px;
-        padding-left: 16px;
+        
+        
         color: #434455;}
+.image-description{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+.image{
+    display: block;
+    max-width: 100%;
+    height: auto
+}
 .flex-container{
-    margin-left: 24px;
-    margin-right: 24px;
+    
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
 }
 .flex-element{
     box-sizing: border-box; background: #FFFFFF;
 /* CLOUD */
-
+flex-basis: calc((100% - 48px)/3);
 border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-margin-left: 24px;
+max-width: 100%;
+height: auto;
 margin-bottom: 48px;}
 
 
