@@ -130,7 +130,7 @@ body{
     text-align: center;
     background-color: #2E2F42;}
 
-.main-title{width: 492px;
+.main-title{width: 500px;
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -238,7 +238,7 @@ body{
     font-size: 36px;
     line-height: 40px;
     /* identical to box height, or 111% */
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -291,10 +291,7 @@ border-radius: 0px 0px 4px 4px;
 .footer-container{ left: 0px;
     height: 310px;
     padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 156px;
-    padding-right: 156px;
-background: #2E2F42;
+    padding-bottom: 100px; background: #2E2F42;
 }
 .webstudio-footer{
     
